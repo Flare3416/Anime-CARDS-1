@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        h1{
+            color: blueviolet;
+            text-align: center;
+        }
+        .box {
+            margin: 100px;
+            padding: 0;
+            border: 5px solid rgb(241, 202, 202);
+            height: 50vh;
+            width: 20vw;
+            border-radius: 15px;
+            position: relative;
+            z-index: 0;
+            display:inline-block;
+        }
+
+        .box img {
+            width: 100%;
+            height: 100%;
+            position: relative;
+            z-index: 0;
+            opacity: 0.8;
+            filter: saturate(50%);
+            filter: brightness(70%);
+        }
+
+
+
+        .box1 img {
+            position: absolute;
+            top: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            height: 45%;
+            width: 95%;
+            border-radius: 15px;
+
+            opacity: 1;
+            filter: saturate(100%);
+            filter: brightness(80%);
+            z-index: 1;
+        }
+
+        .text {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: rgb(244, 244, 244);
+            font-weight: 800;
+            -webkit-text-stroke: 1px rgb(17, 15, 15);
+
+            z-index: 2;
+            position: absolute;
+            top: 215px;
+            left: 12px;
+        }
+
+        .description{
+            position: absolute;
+            top: 50px;
+            font-size: 11px;
+            font-weight: 1000;
+            color:lemonchiffon;
+
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Cards</h1>
+    <div class="box">
+        <img src="Theme1.jpg" alt="Theme">
+        <div class="box1">
+            <img src="Lucy.jpg" alt="Lucy">
+        </div>
+        <div class="text">
+            <span>Anime: </span>
+            <span style="color: gold;">&nbsp;&nbsp;&nbsp;Cyberpunk Edgerunner</span>
+            <span style="color: beige;">&nbsp;&nbsp;&nbsp;10/10</span>
+            <p>Description:</p>
+            <p class="description">In Night City’s slums, David Martinez dreams of rising in Arasaka to fulfill his mother’s wishes. After a gang incident shatters his life, he discovers Sandevistan cyberware, granting him superhuman speed. He uses it for revenge, leading to his expulsion from Arasaka Academy. Skilled data thief Lucyna "Lucy" Kushinada then offers him a place among the Edgerunners, dangerous cybercriminals. Determined to fight the corrupt system, David risks everything for survival.</p>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="Theme2.jpg" alt="Theme">
+        <div class="box1">
+            <img src="Lelouch.jpg" alt="Lucy">
+        </div>
+        <div class="text">
+            <span>Anime: </span>
+            <span style="color: rgb(240, 88, 46);">&nbsp;&nbsp;&nbsp;Code Geass</span>
+            <span style="color: beige;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10/10</span>
+            <p>Description:</p>
+            <p class="description">One year after the failed Black Rebellion against the Holy Britannian Empire, the resistance group known as the Black Knights struggles without their leader, Zero, who has vanished. The brutal oppression of the Elevens has intensified, crushing any hopes of revolt. Meanwhile, Lelouch Lamperouge lives a peaceful life as a high school student at Ashford Academy, unaware of his past. His former ally, C.C., seeks to rekindle his memory and purpose, hoping to reignite the fire of rebellion and see the return of Zero in this thrilling conclusion to the series.</p>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="Theme3.jpg" alt="Theme">
+        <div class="box1">
+            <img src="Fate.jpg" alt="Lucy">
+        </div>
+        <div class="text">
+            <span>Anime: </span>
+            <span style="color: rgb(255, 25, 0);">&nbsp;&nbsp;&nbsp;Fate Stay Night</span>
+            <span style="color: beige;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10/10</span>
+            <p>Description:</p>
+            <p class="description">The Fifth Holy Grail War in Fuyuki City has reached a critical moment as a hidden enemy finally emerges, endangering the lives of all participants. Shirou Emiya, Rin Toosaka, and Illyasviel von Einzbern confront the shadow's true, corruptive nature wreaking havoc across the city, realizing the gravity of their situation. To protect their loved ones, they must battle this formidable enemy, which includes former allies and personal connections. As the final act of the chaotic war begins, Shirou's ideals are put to the test by a harrowing question: can he truly save a world where everything seems lost?.</p>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="theme4.jpg" alt="Theme">
+        <div class="box1">
+            <img src="makima.jpg" alt="Lucy">
+        </div>
+        <div class="text">
+            <span>Anime: </span>
+            <span style="color: rgb(255, 0, 0);">&nbsp;&nbsp;&nbsp;Chainsaw Man</span>
+            <span style="color: beige;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10/10</span>
+            <p>Description:</p>
+            <p class="description">
+                Denji’s teenage life is shattered by his father’s debt, leaving him to hunt devils with his pet chainsaw devil, Pochita, for the yakuza. He dreams of a simple life filled with good food and a girlfriend, but a betrayal leads to his brutal death. Miraculously, Pochita merges with Denji, granting him chainsaw powers. Now a hybrid devil, Denji is taken in by elite devil hunter Makima, who offers him a chance at a better life if he obeys her commands. Driven by his dreams, Denji fights to make them a reality.</p>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="theme5.jpg" alt="Theme">
+        <div class="box1">
+            <img src="silent.jpg" alt="Lucy">
+        </div>
+        <div class="text">
+            <span>Anime: </span>
+            <span style="color: rgb(204, 245, 245);">&nbsp;&nbsp;&nbsp;A Silent Voice</span>
+            <span style="color: beige;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10/10</span>
+            <p>Description:</p>
+            <p class="description">As a child, Shouya Ishida bullied his deaf classmate Shouko Nishimiya when she transferred to his school. After her mother reports the bullying, Shouya is blamed and ostracized by his peers throughout his school years. Now in high school, haunted by his past, he seeks redemption by reconnecting with Shouko and asking for forgiveness. Koe no Katachi follows their heartwarming reunion and Shouya's sincere efforts to atone for his earlier cruelty.</p>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="Theme6.jpg" alt="Theme">
+        <div class="box1">
+            <img src="Stien.png" alt="Lucy">
+        </div>
+        <div class="text">
+            <span>Anime: </span>
+            <span style="color:antiquewhite;">&nbsp;&nbsp;&nbsp;Stiens Gate</span>
+            <span style="color: beige;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10/10</span>
+            <p>Description:</p>
+            <p class="description">Eccentric scientist Rintarou Okabe, along with his ditzy friend Mayuri Shiina and roommate Itaru Hashida, forms the Future Gadget Laboratory to create bizarre inventions. Their most notable creation, a microwave that turns bananas into green goo, takes a surprising turn when Okabe discovers it can send text messages to the past. This revelation attracts the attention of the mysterious organization SERN, putting them in danger. As Okabe tries to fix the timeline and protect his friends, he battles to preserve his sanity amid the chaos.</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
